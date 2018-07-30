@@ -1,8 +1,13 @@
 body {
   background-color: #ffd27f;
-  font-family: 'Roboto Condensed', sans-serif;
+  background-image: url("//beintact.files.wordpress.com/2015/06/vintage-vinyl.gif");
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Roboto Condensed', sans-serif, 'Covered+By+Your+Grace';
   color: white;
 }
+
 /* unvisited link */
 
 a:link {
@@ -66,4 +71,12 @@ li.listarea {
 
 .fa:hover {
     opacity: 0.7;
+}
+div.h1background {
+    background-color: #ffcc66;
+    width: 30%;
+    height: 30%;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
