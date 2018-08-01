@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class='backgroundheader'>
-    <table style="width:100%">
+    <table width="100%">
       <col align="left">
       <col align="left">
       <col align="right">
@@ -32,17 +32,56 @@
       </tr>
     </table>
   </div>
-  <div class="h1background">
+  <div class="blockcontainer">
+    <div id="drink" class="h1background">
 Drink Coffee.
 </div>
 <br  />
-<div class="h1background">
+<div id="listen"class="h1background">
 Listen to Records.
 </div>
 <br  />
-<div class="h1background">
+<div id="turn" class="h1background">
 Turn the music up.
 </div>
-
+</div>
+<hr>
+<div class="flex">
+    <div>
+      <h3>Bexarly Shop</h3>
+      <ul>
+        <li><a href="#">Merch</a></li>
+        <li><a href="#">Records</a></li>
+        <li><a href="#">Coffee</a></li>
+      </ul>
+    </div>
+      <div id="office" class="column">
+          <h3>Find us at</h3>
+          <address id="location">
+            Bexarly Coffee & Records <br>
+            123 Calhoun St. <br>
+            San Antonio, TX 78208 <br>
+            (210) 412-4915<br><br />
+            Open:<br />
+            Tuesday - Sunday: 7AM - 7PM
+          </address>
+        </div>
+    <div id="contact" class="column">
+          <h3>Drop us a line</h3>
+          <form class="contact-form" action="./form/collection.php" >
+            <label class="fields" for="Name">Name</label><br>
+            <textarea style="border:none" class="fields" name="Name" rows="1.5" cols="20"></textarea><br>
+            <label class="fields" for="Message">Message</label> <br>
+            <textarea style="border:none" class="fields" name="Message" rows="4" cols="20"></textarea>                <br />
+            <input class="button" type="submit" value="Send">
+          </form>
+        </div>
+  </div>
+  <footer>
+    <p><a href="#">Privacy Policy</a> |	<a href="#">Terms of Use</a> |	<a href="#">Español</a><br /><br />
+Copyright © 2018 Bexarly Coffee & Records, All Rights Reserved.<br />
+Bexarly Coffee & Records mark and logo are trademarks of Bexarly Coffee &s Records Inc.
+    </p>
+  </footer>
   </body>
 </html>

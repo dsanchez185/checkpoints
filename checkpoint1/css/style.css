@@ -6,12 +6,15 @@ body {
   background-position: center;
   font-family: 'Roboto Condensed', sans-serif, 'Covered+By+Your+Grace';
   color: white;
+  width: 850px;
+  margin: 0 auto;
 }
 
 /* unvisited link */
 
 a:link {
   color: white;
+  text-decoration: none;
 }
 
 /* visited link */
@@ -34,12 +37,11 @@ a:active {
 
 .backgroundheader {
   text-align: center;
-  margin: 20px;
-  min-width: 320px;
-  min-height: 55px;
+  margin: 0;
+
 }
 .header {
-  font-size: 42px;
+  font-size: 34px;
   text-align: left;
   text-transform: uppercase;
   font-weight: bold;
@@ -51,20 +53,20 @@ a:active {
 ul.navigationarea {
   list-style-type: none;
   margin: 0 auto;
-  text-align: center;
+  text-align: right;
   font-weight: bold;
 }
 
 li.listarea {
   display: inline;
-  text-align: center;
+  text-align: right;
   margin: 6px;
 }
 .fa {
   padding: 10px 10px 10px 0px;
   font-size: 30px;
-  width: 30px;
-  text-align: center;
+  width: 20px;
+  text-align: right;
   text-decoration: none;
   margin: 5px 0px;
 }
@@ -72,11 +74,82 @@ li.listarea {
 .fa:hover {
     opacity: 0.7;
 }
-div.h1background {
+.blockcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+
+}
+.h1background {
+  height: 30px;
+  font-size:24px;
+  padding: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#drink{
+  background-color: #ffcc66;
+
+}
+#listen {
+  background-color: #ffcc66;
+}
+#turn {
     background-color: #ffcc66;
-    width: 30%;
-    height: 30%;
-    font-size: 32px;
-    text-transform: uppercase;
-    font-weight: bold;
+}
+hr {
+  border: none;
+  height: 40px;
+}
+
+.flex {
+  width: 820px;
+  height: 230px;
+  background: #ffcc66;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+#location {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.button {
+  background-color: #d3d3d3;
+  border: none;
+  color: white;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+footer {
+  padding-bottom: 5px;
+  padding-left: 20px;
+  text-align: center;
+}
+h3 {
+  text-transform: uppercase;
 }
