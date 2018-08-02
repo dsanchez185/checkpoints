@@ -1,9 +1,9 @@
 body {
   background-color: #ffd27f;
-  background-image: url("//beintact.files.wordpress.com/2015/06/vintage-vinyl.gif");
-  background-repeat: no-repeat, repeat;
+  /* background-image: url("//beintact.files.wordpress.com/2015/06/vintage-vinyl.gif"), url("//i.pinimg.com/736x/bb/95/4f/bb954f0a3b867d7ae841d36ac3e7e6ee--coffee-corner-coffee-art.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: 50% 23%; */
   font-family: 'Roboto Condensed', sans-serif, 'Covered+By+Your+Grace';
   color: white;
   width: 850px;
@@ -76,36 +76,51 @@ li.listarea {
 .fa:hover {
     opacity: 0.7;
 }
+/*orange blocktitles */
+#backgroundimg {
+  background: url("//beintact.files.wordpress.com/2015/06/vintage-vinyl.gif");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: 50% 50%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
 .blockcontainer {
   display: flex;
   flex-direction: column;
-  height: 350px;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  padding-top: 25px;
+  padding-left: 20px;
+  box-sizing: border-box;
 
 }
-/*orange blocktitles */
+
 .h1background {
-  height: 30px;
+  width: 240px;
+  color:#ffffff;
+  text-align: center;
   font-size:24px;
-  padding: 5px;
   font-weight: bold;
   text-transform: uppercase;
 }
-#drink{
-  background-color: #ffcc66;
-
+.h1background:nth-child(1){
+  border: 15px solid #8B4513;
+  background-color: #8B4513;
 }
-#listen {
-  background-color: #ffcc66;
+.h1background:nth-child(3){
+  border: 15px solid #f46731;
+  background-color: #f46731;
 }
-#turn {
-    background-color: #ffcc66;
+.h1background:nth-child(5){
+  border: 15px solid #2bcdc0;
+  background-color: #2bcdc0;
 }
 /* empty space */
 hr {
   border: none;
-  height: 40px;
+  height: 20px;
 }
 /* bottom box */
 .flex {
@@ -115,12 +130,11 @@ hr {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 0;
   font-size: 14px;
   line-height: 25px;
 }
@@ -138,12 +152,11 @@ ul {
 }
 
 .button {
-  background-color: #d3d3d3;
+  background-color: #2bcdc0;
   border: none;
   color: white;
-  padding: 10px 20px 10px 14px;
+  padding: 10px;
   text-align: center;
-  text-decoration: none;
   font-weight: bold;
   display: inline-block;
   font-size: 14px;
