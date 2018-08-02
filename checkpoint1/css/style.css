@@ -1,9 +1,5 @@
 body {
   background-color: #ffd27f;
-  /* background-image: url("//beintact.files.wordpress.com/2015/06/vintage-vinyl.gif"), url("//i.pinimg.com/736x/bb/95/4f/bb954f0a3b867d7ae841d36ac3e7e6ee--coffee-corner-coffee-art.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 23%; */
   font-family: 'Roboto Condensed', sans-serif, 'Covered+By+Your+Grace';
   color: white;
   width: 850px;
@@ -81,9 +77,9 @@ li.listarea {
   background: url("//beintact.files.wordpress.com/2015/06/vintage-vinyl.gif");
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  background-position: 50% 50%;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  background-position: center bottom;
+  padding-bottom: 50px;
+  padding-top: 50px;
   box-sizing: border-box;
 }
 .blockcontainer {
@@ -120,7 +116,7 @@ li.listarea {
 /* empty space */
 hr {
   border: none;
-  height: 20px;
+  padding-top: 5px;
 }
 /* bottom box */
 .flex {
