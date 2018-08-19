@@ -170,3 +170,49 @@ h3 {
   font-weight: bold;
   padding-bottom:8px;
 }
+
+/* (Tablets) */
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    max-width:768px;
+  }
+  .header{
+    font-size: 28px;
+}
+.flex {
+  width: 100%;
+  max-width: 768px;
+}
+.navigationarea, .listarea, .fa {
+  margin: 2px;
+}
+.blockcontainer {
+  width: 100%;
+  max-width: 768px;
+}
+}
+
+/* (mobile) */
+@media (max-width: 576px) {
+body{
+  max-width: 576px;
+  width: 100%;
+}
+.header {
+  font-size: 22px;
+}
+.flex {
+  width: 100%;
+  max-width: 576px;
+  height: auto;
+}
+.navigationarea, .listarea, .fa {
+  margin: 2px;
+}
+.blockcontainer{
+  width: 100%;
+  max-width: 576px;
+}
+
+}
