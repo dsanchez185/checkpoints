@@ -1,11 +1,9 @@
-* {
-  box-sizing: border-box;
-}
 body {
   background-color: #ffd27f;
   font-family: 'Roboto Condensed', sans-serif, 'Covered+By+Your+Grace';
   color: white;
   width: 850px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -47,6 +45,7 @@ a:active {
   padding-left: 20px;
   padding-top: 15px;
   letter-spacing: 8px;
+  padding-bottom: 15px;
 
 }
 /* About nav */
@@ -54,13 +53,14 @@ ul.navigationarea {
   list-style-type: none;
   margin: 0 auto;
   text-align: right;
-  font-weight: bold;
+  font-weight: lighter;
+  font-size: 18px;
 }
 
 li.listarea {
   display: inline;
   text-align: right;
-  margin: 6px;
+  margin: 5px;
 }
 /* social media icons */
 .fa {
@@ -75,78 +75,113 @@ li.listarea {
 .fa:hover {
     opacity: 0.7;
 }
-/*orange blocktitles */
+/*section1 */
 #backgroundimg {
-  background: url("//beintact.files.wordpress.com/2015/06/vintage-vinyl.gif");
+  background: url("//www.billboard.com/files/media/bb27-style-lounge-spiritland-02-london-2016-billboard-1240.jpg");
+  width: 810px;
+  height: 440px;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: center bottom;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  background-attachment: fixed;
+  background-position: center top;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 .blockcontainer {
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
-  /* padding-top: 25px; */
-  padding-left: 20px;
+  /* padding-top: 25px;
+  padding-left: 20px; */
+  box-sizing: border-box;
+
 }
 
 .h1background {
-  width: 250px
-  height: auto;
+  /* width: 240px; */
   color:#ffffff;
   text-align: center;
-  font-size:24px;
-  font-weight: bold;
+  font-size:48px;
+  font-weight: lighter;
   text-transform: uppercase;
-  margin-top: 10px;
+  padding-top: 180px;
+  padding-bottom: 40px;
 }
 .h1background:nth-child(1){
-  border: 15px solid #8B4513;
-  background-color: #8B4513;
+  border: 5px solid #d3d3d3;
+  /* background-color: #8B4513; */
+  margin:20px;
 }
 .h1background:nth-child(3){
-  border: 15px solid #f46731;
-  background-color: #f46731;
+  border: 15px solid #000000;
+  background-color: #000000;
+  margin-bottom: 10px;
 }
 .h1background:nth-child(5){
   border: 15px solid #2bcdc0;
   background-color: #2bcdc0;
 }
+/* section2 */
+#backgroundimg2 {
+  background: url("//recordstores.info/prez/uploads/Vinyl_Coffee_5.jpg");
+  background-repeat: no-repeat;
+  width: 810px;
+  height: 540px;
+  background-attachment: fixed;
+  background-position: center bottom;
+  margin-left: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.blockcontainer2 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+}
+.h2background {
+  color: #ffffff;
+  text-align: left;
+  font-size:60px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding-top: 300px;
+  padding-left: 30px;
+}
+
 /* empty space */
 hr {
   border: none;
-  padding-top: 10px;
+  padding-top: 5px;
 }
-/* info box */
-.main_container {
-display: grid;
-margin-left: 20px;
-grid-template-columns: 1fr;
-grid-column-gap: 10px;
-grid-auto-rows: minmax(100px, auto);
-grid-gap: 10px;
-grid-template-areas: "box1" "box2" "box3"
+/* bottom box */
+.flex {
+  width: 810px;
+  height: 220px;
+  /* background: #ffcc66; */
+  border-right: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
 }
 
 ul {
   list-style-type: none;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 25px;
 }
 
 #location {
   font-style: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
 }
 
 #contact {
   font-style: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
 }
 
@@ -164,19 +199,19 @@ ul {
 }
 footer {
   padding-bottom: 20px;
-  /* padding-top: 100px; */
+  padding-top: 20px;
   text-align: center;
 }
 h3 {
   text-transform: uppercase;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: lighter;
   padding-bottom:8px;
-  padding-top: 10px;
+  letter-spacing: 3px;
 }
 
 /* (Tablets) */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   body {
     width: 100%;
     max-width:768px;
@@ -195,7 +230,7 @@ h3 {
   width: 100%;
   max-width: 768px;
 }
-}
+} */
 
 /* (mobile) */
 @media (max-width: 576px) {
