@@ -1,7 +1,6 @@
 body {
   background-color: #ffd27f;
   font-family: 'Roboto Condensed', sans-serif, 'Covered+By+Your+Grace';
-  color: white;
   width: 850px;
   height: auto;
   margin: 0 auto;
@@ -23,13 +22,13 @@ a:visited {
 /* mouse over link */
 
 a:hover {
-  color: #ffedcc;
+  color: black;
 }
 
 /* selected link */
 
 a:active {
-  color: white;
+  color: black;
 }
 
 .backgroundheader {
@@ -46,6 +45,7 @@ a:active {
   padding-top: 15px;
   letter-spacing: 8px;
   padding-bottom: 15px;
+
 
 }
 /* About nav */
@@ -99,20 +99,20 @@ li.listarea {
 
 .h1background {
   /* width: 240px; */
-  color:#ffffff;
+  color:#ffd27f;
   text-align: center;
-  font-size:48px;
+  font-size:60px;
   font-weight: lighter;
   text-transform: uppercase;
   padding-top: 180px;
   padding-bottom: 40px;
 }
-.h1background:nth-child(1){
-  border: 5px solid #d3d3d3;
+/* .h1background:nth-child(1){
+  border: 5px solid #d3d3d3; */
   /* background-color: #8B4513; */
-  margin:20px;
-}
-.h1background:nth-child(3){
+  /* margin:20px;
+} */
+/* .h1background:nth-child(3){
   border: 15px solid #000000;
   background-color: #000000;
   margin-bottom: 10px;
@@ -120,7 +120,7 @@ li.listarea {
 .h1background:nth-child(5){
   border: 15px solid #2bcdc0;
   background-color: #2bcdc0;
-}
+} */
 /* section2 */
 #backgroundimg2 {
   background: url("//recordstores.info/prez/uploads/Vinyl_Coffee_5.jpg");
@@ -140,10 +140,11 @@ li.listarea {
 
 }
 .h2background {
-  color: #ffffff;
+  color: black;
   text-align: left;
   font-size:60px;
   font-weight: lighter;
+  letter-spacing: 4px;
   text-transform: uppercase;
   padding-top: 300px;
   padding-left: 30px;
@@ -159,36 +160,41 @@ hr {
   width: 810px;
   height: 220px;
   /* background: #ffcc66; */
-  border-right: 2px solid #ffffff;
-  border-left: 2px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
+  color: black;
 }
 
 ul {
   list-style-type: none;
   font-size: 18px;
   line-height: 25px;
+  color: black;
 }
+
 
 #location {
   font-style: normal;
   font-size: 18px;
   line-height: 20px;
+  color: black;
 }
 
 #contact {
   font-style: normal;
   font-size: 18px;
   line-height: 20px;
+  color: black;
 }
 
 .button {
   background-color: #2bcdc0;
   border: none;
-  color: white;
+  color: black;
   padding: 10px;
   text-align: center;
   font-weight: bold;
@@ -201,6 +207,7 @@ footer {
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
+  color: black;
 }
 h3 {
   text-transform: uppercase;
@@ -208,6 +215,7 @@ h3 {
   font-weight: lighter;
   padding-bottom:8px;
   letter-spacing: 3px;
+  color: black;
 }
 
 /* (Tablets) */
@@ -253,5 +261,28 @@ body{
   width: 100%;
   max-width: 576px;
 }
+.blockcontainer2 {
+  width: 100%;
+  max-width: 576px;
+}
+.h1background {
+  width: 100%;
+  max-width: 576px;
+  height: auto;
+}
+.h2background {
+  width: 100%;
+  max-width: 576px;
+  height: auto;
+}
+#backgroundimg {
+  width: 100%;
+  max-width: 576px;
+}
+#backgroundimg2 {
+  width: 100%;
+  max-width: 576px;
+}
+
 
 }
