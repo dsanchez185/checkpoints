@@ -147,7 +147,7 @@ li.listarea {
   letter-spacing: 4px;
   text-transform: uppercase;
   padding-top: 300px;
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 /* empty space */
@@ -219,26 +219,54 @@ h3 {
 }
 
 /* (Tablets) */
-/* @media (max-width: 768px) {
-  body {
-    width: 100%;
-    max-width:768px;
-  }
-  .header{
-    font-size: 28px;
+ @media (max-width: 768px) {
+body{
+  max-width: 768px;
+  width: 100%;
+}
+.header {
+  font-size: 32px;
 }
 .flex {
   width: 100%;
   max-width: 768px;
+  height: auto;
 }
 .navigationarea, .listarea, .fa {
   margin: 2px;
 }
-.blockcontainer {
+.blockcontainer{
   width: 100%;
+  height: auto;
   max-width: 768px;
 }
-} */
+.blockcontainer2 {
+  width: 100%;
+  height: auto;
+  max-width: 768px;
+}
+.h1background {
+  width: 100%;
+  max-width: 768px;
+  height: auto;
+}
+.h2background {
+  width: 100%;
+  max-width: 768px;
+  height: auto;
+}
+#backgroundimg {
+  width: 100%;
+  height: auto;
+  max-width: 768px;
+}
+#backgroundimg2 {
+  width: 100%;
+  height: auto;
+  max-width: 768px;
+  margin-left: 0px;
+}
+}
 
 /* (mobile) */
 @media (max-width: 576px) {
@@ -253,16 +281,22 @@ body{
   width: 100%;
   max-width: 576px;
   height: auto;
+  border-right: none;
+  border-left: none;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .navigationarea, .listarea, .fa {
   margin: 2px;
 }
 .blockcontainer{
   width: 100%;
+  height: auto;
   max-width: 576px;
 }
 .blockcontainer2 {
   width: 100%;
+  height: auto;
   max-width: 576px;
 }
 .h1background {
@@ -277,10 +311,12 @@ body{
 }
 #backgroundimg {
   width: 100%;
+  height: auto;
   max-width: 576px;
 }
 #backgroundimg2 {
   width: 100%;
+  height: auto;
   max-width: 576px;
 }
 
