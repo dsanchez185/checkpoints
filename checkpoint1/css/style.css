@@ -271,7 +271,7 @@ body{
 /* (mobile) */
 @media (max-width: 576px) {
 body{
-  max-width: 576px;
+  /* max-width: 576px; */
   width: 100%;
 }
 .header {
