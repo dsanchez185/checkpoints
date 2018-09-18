@@ -1,0 +1,56 @@
+body {
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px dotted hotpink;
+  width: 250px;
+}
+
+#wheel {
+  width:150px;
+  height:150px;
+  /* background-color: brown; */
+  border-radius:150px;
+}
+
+img {
+  transition: all 3s;
+  transition-timing-function: linear;
+}
+h1 {
+  color: hotpink;
+  font-family: 'Roboto Condensed', sans-serif, 'Covered+By+Your+Grace';
+  font-size: 32px;
+}
+h2 {
+  font-family: 'Roboto Condensed', sans-serif, 'Covered+By+Your+Grace';
+  color: hotpink;
+}
+small{
+  font-family: 'Roboto Condensed', sans-serif, 'Covered+By+Your+Grace';
+  text-align: center;
+  color: brown;
+}
+
+#currentTotal {
+  width:200px;
+  height:50px;
+  padding: 5px;
+  border:1px solid hotpink;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 5px;
+  width:200px;
+  height:22px;
+  border:1px solid hotpink;
+  border-radius:20px;
+  text-align: center;
+  color: brown;
+  cursor:pointer;
+  font-family: 'Roboto Condensed', sans-serif, 'Covered+By+Your+Grace';
+}
